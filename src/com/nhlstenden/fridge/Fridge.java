@@ -1,8 +1,8 @@
 package com.nhlstenden.fridge;
 
 import com.nhlstenden.food.Food;
-import com.nhlstenden.food.meat.Meat;
-import com.nhlstenden.food.vegetable.Vegetable;
+import com.nhlstenden.food.Meat;
+import com.nhlstenden.food.Vegetable;
 import com.nhlstenden.thermometer.Measurable;
 
 import java.util.ArrayList;

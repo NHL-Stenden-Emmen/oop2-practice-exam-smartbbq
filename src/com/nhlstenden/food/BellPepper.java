@@ -1,4 +1,4 @@
-package com.nhlstenden.food.vegetable;
+package com.nhlstenden.food;
 
 public class BellPepper extends Vegetable
 {

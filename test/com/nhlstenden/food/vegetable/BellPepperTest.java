@@ -1,5 +1,6 @@
 package com.nhlstenden.food.vegetable;
 
+import com.nhlstenden.food.BellPepper;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

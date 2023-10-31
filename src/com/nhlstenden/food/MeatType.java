@@ -1,4 +1,4 @@
-package com.nhlstenden.food.meat;
+package com.nhlstenden.food;
 
 public enum MeatType
 {

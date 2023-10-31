@@ -1,12 +1,10 @@
-package com.nhlstenden.food.meat;
-
-import com.nhlstenden.food.Food;
+package com.nhlstenden.food;
 
 public abstract class Meat extends Food
 {
-    protected double currentCookedPercentage;
-    protected double cookedFactor;
-    protected MeatType type;
+    private double currentCookedPercentage;
+    private double cookedFactor;
+    private MeatType type;
 
     public Meat(MeatType type, double cookedFactor, double browningFactor)
     {
@@ -29,7 +27,7 @@ public abstract class Meat extends Food
     @Override
     public void grill(double temperature)
     {
-        this.currentBrownPercentage += this.browningFactor * (temperature / 100);
+        this.setCurrentBrownPercentage(this.getCurrentBrownPercentage() + this.getBrowningFactor() * (temperature / 100));
         this.currentCookedPercentage += (1 / (this.cookedFactor * Math.PI) * temperature);
     }
 }

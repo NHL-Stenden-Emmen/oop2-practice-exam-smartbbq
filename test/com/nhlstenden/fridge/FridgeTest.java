@@ -1,9 +1,9 @@
 package com.nhlstenden.fridge;
 
-import com.nhlstenden.food.meat.Sausage;
-import com.nhlstenden.food.vegetable.Corn;
-import com.nhlstenden.food.meat.Hamburger;
-import com.nhlstenden.food.vegetable.BellPepper;
+import com.nhlstenden.food.Sausage;
+import com.nhlstenden.food.Corn;
+import com.nhlstenden.food.Hamburger;
+import com.nhlstenden.food.BellPepper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

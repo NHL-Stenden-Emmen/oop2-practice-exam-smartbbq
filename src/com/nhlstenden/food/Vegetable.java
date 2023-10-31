@@ -1,4 +1,4 @@
-package com.nhlstenden.food.vegetable;
+package com.nhlstenden.food;
 
 import com.nhlstenden.food.Food;
 

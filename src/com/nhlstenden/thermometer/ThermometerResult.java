@@ -9,9 +9,9 @@ public class ThermometerResult
         this.temperature = temperature;
     }
 
-    public double getTemperature()
+    public String getTemperature()
     {
-        return this.temperature;
+        return "I measured a temperature of " + this.temperature + " degrees Celsius.";
     }
 
     public TemperatureClassification getTemperatureClassification()

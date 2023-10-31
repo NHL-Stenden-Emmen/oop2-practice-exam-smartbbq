@@ -4,9 +4,9 @@ import com.nhlstenden.thermometer.Measurable;
 
 public abstract class Food implements Measurable
 {
-    protected double currentTemperature;
-    protected double currentBrownPercentage;
-    protected double browningFactor;
+    private double currentTemperature;
+    private double currentBrownPercentage;
+    private double browningFactor;
 
     public Food(double browningFactor)
     {
@@ -22,6 +22,16 @@ public abstract class Food implements Measurable
     public double getCurrentBrownPercentage()
     {
         return this.currentBrownPercentage;
+    }
+
+    void setCurrentBrownPercentage(double percentage)
+    {
+        this.currentBrownPercentage = percentage;
+    }
+
+    public double getBrowningFactor()
+    {
+        return this.browningFactor;
     }
 
     @Override
